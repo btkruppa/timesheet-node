@@ -1,0 +1,32 @@
+{
+  "name": "timesheet-node",
+  "version": "1.0.0",
+  "description": "This is a simple server to demonstrate using node, express, and dynamodb in production",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node src/index.ts",
+    "build": "webpack"
+  },
+  "author": "blake",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/express": "^4.11.1",
+    "@types/express-session": "^1.15.8",
+    "@types/node": "^10.0.2",
+    "nodemon": "^1.17.3",
+    "ts-node": "^6.0.2",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.3",
+    "webpack": "^3.5.4"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^2.0.3",
+    "aws-sdk": "^2.230.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "node-fetch": "^2.1.2",
+    "ts-loader": "^2.3.2"
+  }
+}
